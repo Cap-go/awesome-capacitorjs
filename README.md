@@ -84,6 +84,11 @@ Places to discuss about Capacitor.
 ## AI
 
 - [Agent Skills](https://capawesome.io/docs/ai/skills/) - Pre-written instructions that let AI coding agents perform Capacitor tasks such as migrations, plugin setup, and cloud integration correctly.
+- [Capgo Skills](https://github.com/Cap-go/capgo-skills) - Open-source Capacitor skills for AI coding agents such as Claude Code, Codex, Cursor, Copilot, and Gemini CLI, installed with `npx skills add Cap-go/capgo-skills`.
+- [Capgo MCP Server](https://capgo.app/docs/ai/mcp/) - Hosted MCP server at `https://api.capgo.app/mcp` to manage apps, bundles, channels, rollouts, and native builds from an AI agent.
+- [Capgo Cursor Plugin](https://github.com/Cap-go/cursor-capgo-plugin) - Cursor plugin with Capacitor rules, Capgo CLI skills, and MCP servers to ship, live-update, and roll back apps.
+- [Capgo AI Agent Setup](https://capgo.app/agents/) - Guides to build, publish, live-update, and roll back Capacitor apps from Claude Code, Codex, Cursor, Copilot, and Gemini CLI.
+- [Best AI Tools for Capacitor](https://capgo.app/best/ai-tools-for-capacitor/) - Comparison of AI coding agents, skills, and MCP servers for building Capacitor apps.
 
 ## Guides
 
@@ -416,7 +421,7 @@ Maintained by the [Capawesome](https://capawesome.io/) team. See the [full SDK l
 - [@capgo/capacitor-flash](https://github.com/Cap-go/capacitor-flash) - Switch the Flashlight / Torch of your device.
 - [@capgo/capacitor-mute](https://github.com/Cap-go/capacitor-mute) - Detect silent mode and mute audio.
 - [@capgo/capacitor-screen-recorder](https://github.com/Cap-go/capacitor-screen-recorder) - Record screen and save to pelicule.
-- [@capgo/capacitor-updater](https://github.com/Cap-go/capacitor-updater) - Live update for capacitor app.
+- [@capgo/capacitor-updater](https://github.com/Cap-go/capacitor-updater) - Live updates for Capacitor apps with channels and rollback.
 - [@capgo/inappbrowser](https://github.com/Cap-go/capacitor-inappbrowser) - Browser In app browser with urlChangeEvent.
 - [@capgo/native-audio](https://github.com/Cap-go/capacitor-native-audio) - Capacitor plugin for native audio engine (fork).
 - [@capgo/native-market](https://github.com/Cap-go/capacitor-native-market) - Capacitor community plugin for native market for Play Store/App Store.
@@ -524,6 +529,8 @@ Free and open source Capacitor starter apps.
 - [Capawesome Cloud Native Builds](https://capawesome.io/cloud/native-builds/) - Build signed iOS and Android binaries in the cloud from any operating system, without a Mac.
 - [Capawesome Cloud App Store Publishing](https://capawesome.io/cloud/app-store-publishing/) - Publish builds to TestFlight, the App Store, Google Play, and Firebase App Distribution.
 - [Capawesome Cloud Automations](https://capawesome.io/cloud/automations/) - Turn a git push into a native build, live update, or app store submission automatically.
+- [Capgo](https://capgo.app/) - Platform to build, ship, and maintain Capacitor apps with agent skills, MCP servers, plugins, live updates, and release monitoring.
+- [Capgo Native Builds](https://capgo.app/native-build/) - Build signed iOS and Android binaries in the cloud and publish them to the App Store and Google Play.
 
 ## Apps Built with Capacitor
 
